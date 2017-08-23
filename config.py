@@ -6,10 +6,10 @@ access_secret = '53iYHBniXdrIIyzdLukpMziOdt8SjrYkdoszj5ayL3EeK'
 
 # Enter CosmosDB config details below.
 #	Enter your masterKey, endpoint here.
-masterKey = 'y19eTH9gqMrTPqSG9ze6DQ6QHsogEM6Mx5lHutCfjNIt6bW1lQv2yfXnt2aqHQE6vWzpdToMHUYiaqlCr6q2wQ==' 
-host = 'https://twitterfeed.documents.azure.com:443/'
+masterKey = 'RvwFIERGMrKHbggKPZTCsEfU3xF8Vf5MLErug8PsbSLs8kQ2OKbID5IRXgggopaoNCkNjjPngXl1bwD9NAsdWg==' 
+host = 'https://twittercosmosdbfeed.documents.azure.com:443/'
 
 #	Enter your database, collection and preferredLocations here.
 databaseId = 'changefeedsource'
 collectionId = 'tweets'
-preferredLocations = 'West US 2'
+preferredLocations = 'Central US'

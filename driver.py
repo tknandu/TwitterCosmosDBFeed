@@ -23,4 +23,4 @@ if __name__ == '__main__':
     collLink = dbLink + '/colls/' + collectionId
 
     twitter_stream = Stream(auth, CosmosDBListener(client, collLink))
-    twitter_stream.filter(track=['#CosmosDB', '#ApacheSpark', '#ChangeFeed', 'ChangeFeed'], async=True)
+    twitter_stream.filter(track=['#CosmosDB', '#ApacheSpark', '#ChangeFeed', 'ChangeFeed', '#MachineLearning', '#BigData', '#DataScience', '#Mongo', '#Graph'], async=True)
