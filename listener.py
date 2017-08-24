@@ -10,10 +10,6 @@ class CosmosDBListener(StreamListener):
         
     def on_data(self, data):
         try:
-            """
-            with open('data.json', 'a') as f:
-                f.write(data)
-            """
             dictData = json.loads(data)
             dictData["id"] = str(dictData["id"])
             self.client.CreateDocument(self.collLink, dictData)
