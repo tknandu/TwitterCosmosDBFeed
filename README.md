@@ -1,2 +1,5 @@
-pip install tweepy==3.3.0
-pip install pydocumentdb
+In order to reproduce this scenario, you require write-access to a [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) collection (if not already, refer to [Create a Cosmos DB database account](https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-python#create-a-database-account)). You will need to enter your collection's configuration details into *config.py* (refer to [link](https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-python#update-your-connection-string) for further details).
+
+You also need to register the script as a new application at <http://apps.twitter.com/>. After choosing a name and application for your app, you will be provided with a *consumer key*, *consumer secret*, *access token* and *access token secret* - which need to be filled into *config.py* to provide the app programmatic access to Twitter.
+
+We use [Tweepy](http://tweepy.readthedocs.org/)'s Python-based client to access Twitter's service. If not already installed, `pip install tweepy==3.3.0`. If you haven't already installed Cosmos DB's Python client, `pip install pyDocumentDB`.
